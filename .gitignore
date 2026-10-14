@@ -1,0 +1,43 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+dist
+
+# environment files
+.env
+.env*.local
+!.env.example
+
+# debug & logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local database & user uploads (runtime generated)
+data/legalmetrix.db*
+data/uploads/*
+!data/uploads/.gitkeep
+
+# tesseract runtime data & build cache
+tsconfig.tsbuildinfo
+eng.traineddata
+
+# system & IDE
+.DS_Store
+*.pem
+Thumbs.db
+.vscode/
+.idea/
